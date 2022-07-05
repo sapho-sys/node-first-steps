@@ -10,7 +10,7 @@ figlet(greet("Sapho"), function(err, data) {
         console.dir(chalk.blue(err));
         return;
     }
-    console.log(data)
+    console.log(chalk.green(data))
 });
 
 const styledMessage = chalk.bgGreen.black(greet('Xola'));
